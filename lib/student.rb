@@ -39,6 +39,12 @@ class Student
     student.save
     student
   end
+  
+  def self.drop_table
+    student = Student.new(name, grade)
+    student.save
+    student
+  end
  
 
   
